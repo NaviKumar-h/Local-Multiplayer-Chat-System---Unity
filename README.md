@@ -63,18 +63,8 @@ Messages are sent via ServerRpc and broadcast using ClientRpc.
 All players see messages in real-time.
 
 📂 Project Structure
-Copy
-Assets/
-├── Scripts/
-│   ├── NetworkManagerScript.cs  // Handles host/client setup
-│   ├── PlayerController.cs      // Manages player networking
-│   └── ChatUIManager.cs         // Handles UI & messaging
-├── Prefabs/
-│   ├── Player.prefab            // Networked player object
-│   ├── PlayerListItem.prefab    // UI element for player list
-│   └── ChatMessage.prefab       // UI element for messages
-└── Scenes/
-    └── Main.unity               // Main game scene
+![gitFile](https://github.com/user-attachments/assets/d73db8d3-fdf4-487f-9c67-f8ebb9865678)
+
 🔧 Troubleshooting
 ❌ Clients can't connect?
 
